@@ -1,0 +1,91 @@
+.resimSlider {
+    height: 600px;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hakkimizda {
+    background-color: bisque;
+}
+
+.aktiviteler {
+    background-color: burlywood;
+}
+
+.yorumlar {
+    background-color: darkseagreen;
+}
+
+.iletisim {
+    background-color: cadetblue;
+}
+
+.ayrac {
+    border: none;
+    border-top: 3px solid #343a40;
+    max-width: 300px;
+    margin: 25px auto;
+}
+
+.ibisque {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid bisque;
+    background-color: bisque;
+}
+
+.iburlywood {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid burlywood;
+    background-color: burlywood;
+}
+
+.idarkseagreen {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid darkseagreen;
+    background-color: darkseagreen;
+}
+
+.icadetblue {
+    color: #343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid cadetblue;
+    background-color: cadetblue;
+}
+
+.ekipCard > img:hover {
+    opacity: 0.8;
+}
+
+.yorumBoyut {
+    height: 80px;
+    width: 80px;
+}
+
+.harita {
+    position: relative;
+    padding-bottom: 25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.harita iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
